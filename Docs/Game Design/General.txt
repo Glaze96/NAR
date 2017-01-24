@@ -16,6 +16,7 @@ Elevator
 	Cost keys to go down
 
 Figthing mechanic
+	Hit enemy
 
 Keys
 	Merchant has only X amounts of keys
