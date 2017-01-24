@@ -9,13 +9,13 @@ using namespace std::chrono_literals;
 
 bool Engine::m_stopping = false;
 
-Engine::Engine(int gameWidth, int gameHeight) 
+Engine::Engine(int gameWidth, int gameHeight)
 	: m_windowWidth(gameWidth), m_windowHeight(gameHeight) {
-	
+
 }
 
 Engine::~Engine() {
-	
+
 }
 
 void Engine::start() {
@@ -52,7 +52,7 @@ void Engine::gameLoop() {
 	unsigned int frames = 0;
 
 	while (!m_stopping) {
-		
+
 		handleEvents();
 
 		if (timer.Elapsed() - updateTimer > updateTick) {
@@ -66,7 +66,7 @@ void Engine::gameLoop() {
 			clear();
 
 			render();
-			
+
 			refresh();
 
 			renderTimer += renderTick;
@@ -92,7 +92,7 @@ void Engine::gameLoop() {
 }
 
 void Engine::handleEvents() {
-	
+
 
 
 
