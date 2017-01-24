@@ -6,7 +6,6 @@ private:
 	InputManager() { }
 
 public:
-	static bool getKey();
 
 
 private:

@@ -5,12 +5,13 @@ class Game : public Engine {
 public:
 	Game(int gameWidth, int gameHeight);
 
-protected:
+protected: // Methods
 	void init() override;
 	void update(double deltaTime) override;
 	void render() override;
 	void tick() override;
 
-private:
-	
+private: // Fields
+		
+
 };

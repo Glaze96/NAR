@@ -7,8 +7,6 @@ public:
 
 public: // Methods
 
-
 private: // Fields
-	
 
 };

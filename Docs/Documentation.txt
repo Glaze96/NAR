@@ -1,4 +1,6 @@
 TODO:
+	1. Decide on stats
+	2. Create "enemy creator"-Tool
 
 
 DOING:

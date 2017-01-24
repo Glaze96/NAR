@@ -1,0 +1,24 @@
+Character stats:
+	Health
+	
+Money
+	Buy from merchant
+		Seeds
+		Weapons
+		Armour
+		Tools
+		Keys (x amount)
+		
+Farming
+	Top level, different UI
+
+Elevator
+	Cost keys to go down
+
+Figthing mechanic
+
+Keys
+	Merchant has only X amounts of keys
+	Can be found in levels
+	Used to unlock new levels
+	Different keys for different sections

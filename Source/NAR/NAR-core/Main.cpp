@@ -5,12 +5,12 @@
 
 int main() {
 
-	//Game game(25, 80);
-	//game.start();
+	Game game(25, 80);
+	game.start();
 
-	FileIO fileIO;
+	//FileIO fileIO;
 
-	fileIO.getCharacterDesc("Orc");
+	//fileIO.getCharacterDesc("Orc");
 
 
 	system("pause");

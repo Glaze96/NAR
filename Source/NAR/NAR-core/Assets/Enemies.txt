@@ -5,3 +5,4 @@ name: Orc
 name: Rat
 	maxHealth: 10
 	maxMana: 0
+

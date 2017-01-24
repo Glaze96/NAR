@@ -39,7 +39,6 @@ CharacterDesc* FileIO::getCharacterDesc(const std::string& name) {
 
 	return newCharacterDesc;
 
-
 }
 
 
