@@ -24,7 +24,10 @@
     <ClCompile Include="Src\Game\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Src\Engine\Input\InputManager.cpp">
+    <ClCompile Include="Src\Engine\IO\FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\InputManager\InputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,10 +38,22 @@
     <ClInclude Include="Src\Game\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Engine\Input\InputManager.h">
+    <ClInclude Include="Src\Engine\Utils\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Engine\Utils\Timer.h">
+    <ClInclude Include="Src\Engine\IO\FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Entity\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Entity\Character\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Entity\Character\CharacterDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\InputManager\InputManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

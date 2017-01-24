@@ -129,13 +129,18 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Src\Engine\Engine.cpp" />
-    <ClCompile Include="Src\Engine\Input\InputManager.cpp" />
+    <ClCompile Include="Src\Engine\InputManager\InputManager.cpp" />
+    <ClCompile Include="Src\Engine\IO\FileIO.cpp" />
     <ClCompile Include="Src\Game\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Engine\Engine.h" />
-    <ClInclude Include="Src\Engine\Input\InputManager.h" />
+    <ClInclude Include="Src\Engine\InputManager\InputManager.h" />
+    <ClInclude Include="Src\Engine\IO\FileIO.h" />
     <ClInclude Include="Src\Engine\Utils\Timer.h" />
+    <ClInclude Include="Src\Game\Entity\Character\Character.h" />
+    <ClInclude Include="Src\Game\Entity\Character\CharacterDesc.h" />
+    <ClInclude Include="Src\Game\Entity\Entity.h" />
     <ClInclude Include="Src\Game\Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

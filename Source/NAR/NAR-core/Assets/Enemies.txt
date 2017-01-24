@@ -1,0 +1,7 @@
+name: Orc
+	maxHealth: 100
+	maxMana: 0
+
+name: Rat
+	maxHealth: 10
+	maxMana: 0
