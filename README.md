@@ -7,3 +7,6 @@ Everything!!
 
 # Libraries
 pdCurses
+
+# Logs/ Documents
+[Hack n' Plan](https://app.hacknplan.com/p/19973/board?categoryId=1&milestoneId=35767)
