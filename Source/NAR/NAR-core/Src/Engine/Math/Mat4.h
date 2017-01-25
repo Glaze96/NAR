@@ -1,7 +1,15 @@
 #pragma once
+/* Author: Rasmus R.
+* Last modified: Rasmus R.
+*
+* Usage:
+*
+*
+*/
 
 #include "Math.h"
 #include "Quaternion.h"
+
 
 struct Matrix4f {
 

@@ -1,4 +1,12 @@
 #pragma once
+/* Author: Rasmus R.
+* Last modified: Rasmus R.
+*
+* Usage:
+*
+*
+*/
+
 
 class Engine {
 protected: // Structors
@@ -15,7 +23,7 @@ public: // Methods
 
 protected:
 	virtual void init() = 0; // Initialize game systems
-	virtual void update(double deltaTime) = 0;  // Update game
+	virtual void update(double deltaTime, int input) = 0;  // Update game
 	virtual void draw() = 0; // Render game
 	virtual void tick() = 0; // Once every second
 

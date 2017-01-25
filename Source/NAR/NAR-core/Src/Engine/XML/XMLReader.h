@@ -1,4 +1,12 @@
 #pragma once
+/* Author: Rasmus R.
+* Last modified: Rasmus R.
+*
+* Usage:
+*
+*
+*/
+
 #include "Game/Entity/Character/CharacterDesc.h"
 #include <RapidXML/rapidxml.hpp>
 #include <string>

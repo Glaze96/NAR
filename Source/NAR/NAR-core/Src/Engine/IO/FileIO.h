@@ -1,6 +1,14 @@
 #pragma once
+/* Author: Rasmus R.
+* Last modified: Rasmus R.
+*
+* Usage:
+*
+*
+*/
 #include <string>
 #include "Game/Entity/Character/CharacterDesc.h"
+
 
 class FileIO {
 public:

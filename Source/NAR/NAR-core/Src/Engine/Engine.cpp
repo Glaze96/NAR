@@ -4,6 +4,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include "Drawing/RenderManager.h"
 
 using namespace std::chrono_literals;
 
@@ -31,6 +32,8 @@ void Engine::start() {
 	resize_term(m_windowHeight, m_windowWidth);
 	nodelay(stdscr, true); // Do not pause for input
 
+	RenderManager::Init();
+
 	init();
 	gameLoop();
 }
@@ -56,7 +59,8 @@ void Engine::gameLoop() {
 		handleEvents();
 
 		if (timer.Elapsed() - updateTimer > updateTick) {
-			update(updateTick);
+			int ch = getch();
+			update(updateTick, ch);
 
 			updateTimer += updateTick;
 			updates++;

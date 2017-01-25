@@ -128,10 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Src\Engine\Drawing\Camera.cpp" />
+    <ClCompile Include="Src\Engine\Drawing\RenderManager.cpp" />
     <ClCompile Include="Src\Engine\Engine.cpp" />
     <ClCompile Include="Src\Engine\InputManager\InputManager.cpp" />
     <ClCompile Include="Src\Engine\IO\FileIO.cpp" />
-    <ClCompile Include="Src\Engine\Drawing\RenderManager.cpp" />
     <ClCompile Include="Src\Engine\Math\Mat4.cpp" />
     <ClCompile Include="Src\Engine\Math\Vector2.cpp" />
     <ClCompile Include="Src\Engine\Math\Vector3.cpp" />
@@ -141,10 +142,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Engine\Drawing\Camera.h" />
+    <ClInclude Include="Src\Engine\Drawing\RenderManager.h" />
     <ClInclude Include="Src\Engine\Engine.h" />
     <ClInclude Include="Src\Engine\InputManager\InputManager.h" />
     <ClInclude Include="Src\Engine\IO\FileIO.h" />
-    <ClInclude Include="Src\Engine\Drawing\RenderManager.h" />
     <ClInclude Include="Src\Engine\Math\Constants.h" />
     <ClInclude Include="Src\Engine\Math\Mat4.h" />
     <ClInclude Include="Src\Engine\Math\Math.h" />
