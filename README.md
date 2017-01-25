@@ -7,6 +7,7 @@ Everything!!
 
 # Libraries
 pdCurses
+
 irrKlang (in the future)
 
 # Logs/ Documents
