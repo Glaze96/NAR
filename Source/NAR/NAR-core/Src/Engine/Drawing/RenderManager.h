@@ -25,7 +25,7 @@ public:
 	static void PrintChar(const Camera& camera, const Vector2i& worldPosition, char c);
 
 private:
-	static bool InBounds(int x, int y);
+	static bool OutOfBounds(int x, int y);
 
 private:
 	static int m_screenWidth;

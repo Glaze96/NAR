@@ -1,7 +1,5 @@
 #include <iostream>
 #include "Game/Game.h"
-#include "Curses/curses.h"
-#include "Engine/IO/FileIO.h"
 
 int main() {
 
@@ -11,3 +9,29 @@ int main() {
 	system("pause");
 	return 0;
 }
+
+//#include <string>
+
+//std::string compileFormatString(std::string str, ...) {
+//	
+//	std::string newString = "";
+//
+//	va_list args;
+//
+//	va_start(args, str);
+//	newString += str;
+//	va_end(args);
+//
+//	return newString;
+//}
+//
+//int main() {
+//
+//	std::cout << compileFormatString("I like the number %i", 3) << std::endl;
+//	// ACTUAL OUTPUT: I like the number %i
+//	// WANTED OUTPUT: I like the number 3
+//
+//	system("pause");
+//
+//	return 0;
+//}
