@@ -65,7 +65,7 @@ void Engine::gameLoop() {
 		if (timer.Elapsed() - renderTimer > renderTick) {
 			clear();
 
-			render();
+			draw();
 
 			refresh();
 

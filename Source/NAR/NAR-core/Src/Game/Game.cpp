@@ -12,14 +12,13 @@ void Game::init() {
 
 }
 
-
 void Game::update(double deltaTime) {
 	
 
 
 }
 
-void Game::render() {
+void Game::draw() {
 
 	printw("FPS: %i", getFPS());
 	printw("UPS: %i", getUPS());

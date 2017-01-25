@@ -16,11 +16,11 @@ public: // Methods
 protected:
 	virtual void init() = 0; // Initialize game systems
 	virtual void update(double deltaTime) = 0;  // Update game
-	virtual void render() = 0; // Render game
+	virtual void draw() = 0; // Render game
 	virtual void tick() = 0; // Once every second
 
 private:
-	void gameLoop();
+	void gameLooop();
 	void handleEvents(); // Handle any events
 	
 private: // Fields

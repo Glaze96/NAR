@@ -8,7 +8,7 @@ public:
 protected: // Methods
 	void init() override;
 	void update(double deltaTime) override;
-	void render() override;
+	void draw() override;
 	void tick() override;
 
 private: // Fields
