@@ -20,7 +20,7 @@ protected:
 	virtual void tick() = 0; // Once every second
 
 private:
-	void gameLooop();
+	void gameLoop();
 	void handleEvents(); // Handle any events
 	
 private: // Fields
