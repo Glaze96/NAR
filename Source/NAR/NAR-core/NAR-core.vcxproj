@@ -131,13 +131,27 @@
     <ClCompile Include="Src\Engine\Engine.cpp" />
     <ClCompile Include="Src\Engine\InputManager\InputManager.cpp" />
     <ClCompile Include="Src\Engine\IO\FileIO.cpp" />
+    <ClCompile Include="Src\Engine\Drawing\RenderManager.cpp" />
+    <ClCompile Include="Src\Engine\Math\Mat4.cpp" />
+    <ClCompile Include="Src\Engine\Math\Vector2.cpp" />
+    <ClCompile Include="Src\Engine\Math\Vector3.cpp" />
+    <ClCompile Include="Src\Engine\Math\Vector4.cpp" />
     <ClCompile Include="Src\Engine\XML\XMLReader.cpp" />
     <ClCompile Include="Src\Game\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\Engine\Drawing\Camera.h" />
     <ClInclude Include="Src\Engine\Engine.h" />
     <ClInclude Include="Src\Engine\InputManager\InputManager.h" />
     <ClInclude Include="Src\Engine\IO\FileIO.h" />
+    <ClInclude Include="Src\Engine\Drawing\RenderManager.h" />
+    <ClInclude Include="Src\Engine\Math\Constants.h" />
+    <ClInclude Include="Src\Engine\Math\Mat4.h" />
+    <ClInclude Include="Src\Engine\Math\Math.h" />
+    <ClInclude Include="Src\Engine\Math\Quaternion.h" />
+    <ClInclude Include="Src\Engine\Math\Vector2.h" />
+    <ClInclude Include="Src\Engine\Math\Vector3.h" />
+    <ClInclude Include="Src\Engine\Math\Vector4.h" />
     <ClInclude Include="Src\Engine\Utils\Timer.h" />
     <ClInclude Include="Src\Engine\XML\XMLReader.h" />
     <ClInclude Include="Src\Game\Entity\Character\Character.h" />
