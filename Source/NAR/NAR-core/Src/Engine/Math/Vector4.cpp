@@ -3,7 +3,6 @@
 #include "constants.h"
 
 
-namespace gengine {
 
 	Vector4f::Vector4f()
 		: x(0.0f), y(0.0f), z(0.0f), w(0.0f) {}
@@ -83,5 +82,3 @@ namespace gengine {
 
 		return false;
 	}
-
-}
