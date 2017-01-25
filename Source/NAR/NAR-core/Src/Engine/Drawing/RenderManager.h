@@ -2,8 +2,13 @@
 /* Author: Rasmus R.
 * Last modified: Rasmus R.
 *
+* TODO:
+* Add clipping bounds to camera
+*
 * Usage:
 * Printing strings with variables: http://www.cplusplus.com/reference/cstdio/printf/
+*
+*
 *
 */
 
