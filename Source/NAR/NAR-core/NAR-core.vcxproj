@@ -138,6 +138,7 @@
     <ClCompile Include="Src\Engine\Math\Vector3.cpp" />
     <ClCompile Include="Src\Engine\Math\Vector4.cpp" />
     <ClCompile Include="Src\Engine\XML\XMLReader.cpp" />
+    <ClCompile Include="Src\Game\Entity\Room.cpp" />
     <ClCompile Include="Src\Game\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -158,7 +159,10 @@
     <ClInclude Include="Src\Game\Entity\Character\Character.h" />
     <ClInclude Include="Src\Game\Entity\Character\CharacterDesc.h" />
     <ClInclude Include="Src\Game\Entity\Entity.h" />
+    <ClInclude Include="Src\Game\Entity\Drawable.h" />
+    <ClInclude Include="Src\Game\Entity\Room.h" />
     <ClInclude Include="Src\Game\Game.h" />
+    <ClInclude Include="Src\Game\Level\Level.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

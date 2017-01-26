@@ -51,6 +51,9 @@
     <ClCompile Include="Src\Engine\Drawing\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Game\Entity\Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Engine\Engine.h">
@@ -105,6 +108,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Src\Engine\Drawing\RenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Entity\Room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Entity\Drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Level\Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

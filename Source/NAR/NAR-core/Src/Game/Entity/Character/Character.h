@@ -6,9 +6,7 @@
 *
 *
 */
-
 #include "Game/Entity/Entity.h"
-
 
 class Character : public Entity {
 public:

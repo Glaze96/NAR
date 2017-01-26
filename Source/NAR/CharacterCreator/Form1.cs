@@ -22,14 +22,6 @@ namespace CharacterCreator {
 		private XDocument characterDocument;
 
 		private void Init() {
-			//XDocument xDoc = XDocument.Load("Characters.xml");
-			//var query = from xEle in xDoc.Descendants("Character")
-			//			select new ListItem(xEle.Element("Name").Value);
-
-			//Characters_ListBox.DataValueField = "value";
-			//Characters_ListBox.DataTextField = "text";
-			//Characters_ListBox.DataSource = query;
-			//Characters_ListBox.DataBind();
 
 			if (File.Exists("Characters.xml")) {
 				ReloadList();
