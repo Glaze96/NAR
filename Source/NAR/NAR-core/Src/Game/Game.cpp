@@ -10,7 +10,6 @@ void Game::init() {
 	// TODO: Initialize game systems
 
 
-
 }
 
 void Game::update(double deltaTime, int input) {

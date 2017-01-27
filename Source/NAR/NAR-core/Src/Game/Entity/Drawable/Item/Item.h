@@ -6,17 +6,13 @@
 *
 *
 */
-#include <iostream>
+#include <Game/Entity/Drawable/Drawable.h>
 
-
-class Entity {
-public:
-	Entity();
+class Item : public Drawable {
+protected:
 
 public: // Methods
-	virtual void update(char input) = 0;
-
 
 private: // Fields
-	unsigned int m_id;
+
 };

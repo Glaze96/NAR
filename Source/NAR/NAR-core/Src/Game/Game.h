@@ -10,6 +10,7 @@
 #include "Engine/Engine.h"
 #include <Engine/Drawing/Camera.h>
 
+
 class Game : public Engine {
 public:
 	Game(int gameWidth, int gameHeight);

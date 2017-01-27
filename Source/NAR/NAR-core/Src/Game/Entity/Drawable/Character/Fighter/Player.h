@@ -6,17 +6,12 @@
 *
 *
 */
-#include <iostream>
+#include "Fighter.h"
 
-
-class Entity {
+class Player : Fighter {
 public:
-	Entity();
 
 public: // Methods
-	virtual void update(char input) = 0;
-
 
 private: // Fields
-	unsigned int m_id;
 };

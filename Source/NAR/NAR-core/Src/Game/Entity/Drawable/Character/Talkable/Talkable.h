@@ -6,17 +6,15 @@
 *
 *
 */
-#include <iostream>
+#include <Game/Entity/Drawable/Character/Character.h>
 
-
-class Entity {
-public:
-	Entity();
+class Talkable : public Character {
+protected:
 
 public: // Methods
-	virtual void update(char input) = 0;
 
 
 private: // Fields
-	unsigned int m_id;
+
+
 };

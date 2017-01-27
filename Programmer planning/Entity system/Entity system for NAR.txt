@@ -13,10 +13,10 @@ Drawable : Entity
 
 Character : Drawable
 	NI
-
 	Move function
 
 Fighter : Character
+	NI
 	Fight function
 	Stats
 		Health (int)

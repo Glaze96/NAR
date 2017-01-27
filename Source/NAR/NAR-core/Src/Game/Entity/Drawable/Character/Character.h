@@ -6,17 +6,14 @@
 *
 *
 */
-#include <iostream>
+#include "Game/Entity/Entity.h"
 
-
-class Entity {
-public:
-	Entity();
+class Character : public Entity {
+protected:
+	Character();
 
 public: // Methods
-	virtual void update(char input) = 0;
-
 
 private: // Fields
-	unsigned int m_id;
+
 };

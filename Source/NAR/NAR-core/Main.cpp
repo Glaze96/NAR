@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Game/Game.h"
+#include <Game/Entity/Entity.h>
 
 int main() {
 
@@ -35,3 +36,19 @@ int main() {
 //
 //	return 0;
 //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

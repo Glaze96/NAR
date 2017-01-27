@@ -7,8 +7,7 @@
 *
 */
 #include <string>
-#include "Game/Entity/Character/CharacterDesc.h"
-
+#include "Game/Entity/Drawable/Character/CharacterDesc.h"
 
 class FileIO {
 public:

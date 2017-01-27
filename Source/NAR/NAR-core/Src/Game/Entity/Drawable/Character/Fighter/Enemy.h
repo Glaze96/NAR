@@ -6,11 +6,10 @@
 *
 *
 */
-#include "Game/Entity/Entity.h"
+#include "Fighter.h"
 
-class Character : public Entity {
+class Enemy :public Fighter {
 public:
-	Character();
 
 public: // Methods
 

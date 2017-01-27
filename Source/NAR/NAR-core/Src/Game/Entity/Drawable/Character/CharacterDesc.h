@@ -6,9 +6,7 @@
 *
 *
 */
-
 #include <string>
-
 
 struct CharacterDesc {
 	

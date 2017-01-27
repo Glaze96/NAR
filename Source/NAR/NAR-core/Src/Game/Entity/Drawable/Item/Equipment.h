@@ -6,17 +6,12 @@
 *
 *
 */
-#include <iostream>
+#include "Item.h"
 
-
-class Entity {
+class Equipment : public Item {
 public:
-	Entity();
 
 public: // Methods
-	virtual void update(char input) = 0;
-
 
 private: // Fields
-	unsigned int m_id;
 };

@@ -12,9 +12,9 @@ class Drawable : public Entity {
 protected:
 	Drawable() { }
 
-public:
+public: // Methods
 	virtual void draw() = 0;
 	
-private:
+private: // Fields
 
 };

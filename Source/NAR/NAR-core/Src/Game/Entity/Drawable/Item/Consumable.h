@@ -1,4 +1,5 @@
 #pragma once
+
 /* Author: Rasmus R.
 * Last modified: Rasmus R.
 *
@@ -6,17 +7,12 @@
 *
 *
 */
-#include <iostream>
+#include "Item.h"
 
-
-class Entity {
+class Consumable : public Item {
 public:
-	Entity();
 
 public: // Methods
-	virtual void update(char input) = 0;
-
 
 private: // Fields
-	unsigned int m_id;
 };

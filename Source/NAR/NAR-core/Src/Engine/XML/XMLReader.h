@@ -7,9 +7,8 @@
 *
 */
 
-#include "Game/Entity/Character/CharacterDesc.h"
+#include <Game/Entity/Drawable/Character/CharacterDesc.h>
 #include <RapidXML/rapidxml.hpp>
-#include <string>
 
 class XMLReader {
 public:
