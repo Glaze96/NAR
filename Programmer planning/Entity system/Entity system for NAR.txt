@@ -1,0 +1,33 @@
+Entity system - NAR
+
+Entity
+	
+
+Drawing
+	Needed for structure
+
+NPC
+	
+
+Player
+	
+
+Item
+	Not always drawable
+		Keep list of drawables and loop + draw?
+
+
+Walkable and obstacles
+	Probably same class and player will check if walkable
+	Will hold speed factor (mud = more energy)?
+
+
+Interactables
+	
+
+
+Level
+	entity list should be MAP
+
+research enum to string conversion
+
