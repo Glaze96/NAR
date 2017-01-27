@@ -1,30 +1,58 @@
 Entity system - NAR
 
-Entity
-	
+NI = non instatiatable
 
-Drawing
-	Needed for structure
+Entity 
+	NI
+	Entity id (int)
+	Update method (pure virtual)
 
-NPC
-	
+Drawable : Entity
+	NI
+	Draw function (pure virutal)
 
-Player
-	
+Character : Drawable
+	NI
 
-Item
+	Move function
+
+Fighter : Character
+	Fight function
+	Stats
+		Health (int)
+		Energy (int)
+		Experience/ Level
+		Defence
+		Strength
+		Dexterity
+		Constitution
+
+Player : Fighter
+	Be able to accept input
+
+Enemy : Fighter
+
+Talkable : Character
+	Interact function
+
+ShopKeeper (need more generalised name) : Talkable
+
+Item : Drawable
 	Not always drawable
 		Keep list of drawables and loop + draw?
 
 
-Walkable and obstacles
+
+NOT FINISHED:
+
+Floor/ Wall/ Doors (needs a name) : Drawable
 	Probably same class and player will check if walkable
 	Will hold speed factor (mud = more energy)?
 
+Interactables (doors) : Floor
 
-Interactables
-	
 
+GENERAL:
 
 Level
 	entity list should be MAP
