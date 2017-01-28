@@ -7,10 +7,12 @@ Entity
 	Entity id (int)
 	Update method (pure virtual)
 
+
 Drawable : Entity
 	NI
 	Draw function (pure virutal)
-
+	Position
+	
 Character : Drawable
 	NI
 	Move function

@@ -6,17 +6,18 @@
 *
 *
 */
-#include <iostream>
-
 
 class Entity {
-public:
+protected:
 	Entity();
+	virtual ~Entity();
 
-public: // Methods
+public:
+
+	// Methods
 	virtual void update(char input) = 0;
-
 
 private: // Fields
 	unsigned int m_id;
+	static unsigned int m_idCounter;
 };

@@ -128,8 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Src\Engine\Drawing\Camera.cpp" />
-    <ClCompile Include="Src\Engine\Drawing\RenderManager.cpp" />
+    <ClCompile Include="Src\Engine\Rendering\Camera.cpp" />
+    <ClCompile Include="Src\Engine\Rendering\RenderManager.cpp" />
     <ClCompile Include="Src\Engine\Engine.cpp" />
     <ClCompile Include="Src\Engine\InputManager\InputManager.cpp" />
     <ClCompile Include="Src\Engine\IO\FileIO.cpp" />
@@ -138,12 +138,14 @@
     <ClCompile Include="Src\Engine\Math\Vector3.cpp" />
     <ClCompile Include="Src\Engine\Math\Vector4.cpp" />
     <ClCompile Include="Src\Engine\XML\XMLReader.cpp" />
+    <ClCompile Include="Src\Game\Entity\Drawable\Drawable.cpp" />
+    <ClCompile Include="Src\Game\Entity\Entity.cpp" />
     <ClCompile Include="Src\Game\Level\Room.cpp" />
     <ClCompile Include="Src\Game\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\Engine\Drawing\Camera.h" />
-    <ClInclude Include="Src\Engine\Drawing\RenderManager.h" />
+    <ClInclude Include="Src\Engine\Rendering\Camera.h" />
+    <ClInclude Include="Src\Engine\Rendering\RenderManager.h" />
     <ClInclude Include="Src\Engine\Engine.h" />
     <ClInclude Include="Src\Engine\InputManager\InputManager.h" />
     <ClInclude Include="Src\Engine\IO\FileIO.h" />

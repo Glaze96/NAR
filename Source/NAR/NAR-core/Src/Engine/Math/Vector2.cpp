@@ -82,7 +82,7 @@ bool Vector2f::operator==(const Vector2f& v) const {
 }
 
 Vector2i::Vector2i()
-	: x(0.0f), y(0.0f) { }
+	: x(0), y(0) { }
 
 Vector2i::Vector2i(const int& x, const int& y)
 	: x(x), y(y) { }

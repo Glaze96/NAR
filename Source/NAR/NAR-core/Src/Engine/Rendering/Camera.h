@@ -6,9 +6,7 @@
 *
 *
 */
-
 #include <Engine/Math/Vector2.h>
-
 
 class Camera {
 public:

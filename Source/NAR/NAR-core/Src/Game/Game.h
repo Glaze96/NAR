@@ -8,7 +8,7 @@
 */
 
 #include "Engine/Engine.h"
-#include <Engine/Drawing/Camera.h>
+#include <Engine/Rendering/Camera.h>
 
 
 class Game : public Engine {

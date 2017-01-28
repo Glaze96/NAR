@@ -4,7 +4,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include "Drawing/RenderManager.h"
+#include "Rendering/RenderManager.h"
 
 using namespace std::chrono_literals;
 

@@ -1,7 +1,7 @@
 #include "Game.h"
 #include <iostream>
 #include "Curses/curses.h"
-#include <Engine/Drawing/RenderManager.h>
+#include <Engine/Rendering/RenderManager.h>
 
 Game::Game(int gameWidth, int gameHeight) 
 	: Engine(gameWidth, gameHeight), m_camera(Vector2i(128, 72)) {}
