@@ -7,13 +7,13 @@
 *
 */
 #include <string>
-#include "Game/Entity/Drawable/Character/CharacterDesc.h"
+#include <Game/Entity/Drawable/Character/Fighter/FighterDesc.h>
 
 class FileIO {
 public:
 	FileIO();
 
 public:
-	CharacterDesc* getCharacterDesc(const std::string& id);
+	FighterDesc* getCharacterDesc(const std::string& id);
 	std::string getTextFromFile(const std::string& filePath);
 };

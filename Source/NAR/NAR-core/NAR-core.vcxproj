@@ -138,10 +138,15 @@
     <ClCompile Include="Src\Engine\Math\Vector3.cpp" />
     <ClCompile Include="Src\Engine\Math\Vector4.cpp" />
     <ClCompile Include="Src\Engine\XML\XMLReader.cpp" />
+    <ClCompile Include="Src\Game\Entity\Drawable\Character\Character.cpp" />
+    <ClCompile Include="Src\Game\Entity\Drawable\Character\Fighter\Fighter.cpp" />
     <ClCompile Include="Src\Game\Entity\Drawable\Drawable.cpp" />
     <ClCompile Include="Src\Game\Entity\Entity.cpp" />
     <ClCompile Include="Src\Game\Level\Room.cpp" />
     <ClCompile Include="Src\Game\Game.cpp" />
+    <ClCompile Include="Src\Game\Window\UI.cpp" />
+    <ClCompile Include="Src\Game\Window\Window.cpp" />
+    <ClCompile Include="Src\Game\Window\World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Engine\Rendering\Camera.h" />
@@ -159,9 +164,9 @@
     <ClInclude Include="Src\Engine\Utils\Timer.h" />
     <ClInclude Include="Src\Engine\XML\XMLReader.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Character\Character.h" />
-    <ClInclude Include="Src\Game\Entity\Drawable\Character\CharacterDesc.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Character\Fighter\Enemy.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Character\Fighter\Fighter.h" />
+    <ClInclude Include="Src\Game\Entity\Drawable\Character\Fighter\FighterDesc.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Character\Fighter\Player.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Character\Talkable\Talkable.h" />
     <ClInclude Include="Src\Game\Entity\Drawable\Item\Consumable.h" />
@@ -172,6 +177,9 @@
     <ClInclude Include="Src\Game\Level\Room.h" />
     <ClInclude Include="Src\Game\Game.h" />
     <ClInclude Include="Src\Game\Level\Level.h" />
+    <ClInclude Include="Src\Game\Window\UI.h" />
+    <ClInclude Include="Src\Game\Window\Window.h" />
+    <ClInclude Include="Src\Game\Window\World.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

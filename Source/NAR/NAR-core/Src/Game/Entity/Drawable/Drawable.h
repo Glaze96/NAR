@@ -8,18 +8,21 @@
 */
 #include <Game/Entity/Entity.h>
 #include <Engine/Math/Vector2.h>
-#include <Engine/Rendering/Camera.h>
+
+class Camera;
 
 class Drawable : public Entity {
 protected:
-	Drawable(char appearance, Camera& camera, const Vector2i& position = Vector2i());
+	Drawable(char appearance, const Vector2i& startPosition = Vector2i());
+
+public:
 	virtual ~Drawable();
 
 public: // Methods
-	virtual void draw();
+
+	virtual void draw(const Camera& camera);
 	
 private: // Fields
-	Camera& m_camera;
 	char m_appearance;
 	Vector2i m_position;
 };

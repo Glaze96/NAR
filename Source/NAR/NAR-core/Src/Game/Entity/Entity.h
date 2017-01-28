@@ -15,7 +15,7 @@ protected:
 public:
 
 	// Methods
-	virtual void update(char input) = 0;
+	virtual void update(char input) { }
 
 private: // Fields
 	unsigned int m_id;

@@ -7,7 +7,7 @@
 *
 */
 
-#include <Game/Entity/Drawable/Character/CharacterDesc.h>
+#include <Game/Entity/Drawable/Character/Fighter/FighterDesc.h>
 #include <RapidXML/rapidxml.hpp>
 
 class XMLReader {
@@ -15,7 +15,7 @@ public:
 	XMLReader();
 
 public: // Methods
-	CharacterDesc* getCharacterDesc();
+	FighterDesc* getCharacterDesc();
 
 
 private: // Fields

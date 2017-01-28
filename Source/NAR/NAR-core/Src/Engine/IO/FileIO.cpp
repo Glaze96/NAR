@@ -6,7 +6,7 @@ FileIO::FileIO() {
 	
 }
 
-CharacterDesc* FileIO::getCharacterDesc(const std::string& name) {
+FighterDesc* FileIO::getCharacterDesc(const std::string& name) {
 
 	unsigned int enemyPosition;
 
@@ -23,19 +23,12 @@ CharacterDesc* FileIO::getCharacterDesc(const std::string& name) {
 	unsigned int newLinePosition = text.find("\n", maxHealthPosition);
 	std::string maxHealth = text.substr(maxHealthPosition + 11, newLinePosition - (maxHealthPosition + 11));
 
-	unsigned int maxManaPosition = text.find("maxMana: ", enemyPosition);
-	newLinePosition = text.find("\n", maxManaPosition);
-	std::string maxMana = text.substr(maxManaPosition + 9, newLinePosition - (maxManaPosition + 9));
-
-	CharacterDesc* newCharacterDesc = new CharacterDesc();
+	FighterDesc* newCharacterDesc = new FighterDesc();
 	newCharacterDesc->name = name;
-	newCharacterDesc->maxHealth = stoi(maxHealth);
-	newCharacterDesc->maxMana = stoi(maxMana);
-
+	newCharacterDesc->health = stoi(maxHealth);
 
 	std::cout << "Name: " << newCharacterDesc->name << std::endl;
-	std::cout << "Health: " << newCharacterDesc->maxHealth << std::endl;
-	std::cout << "Mana: " << newCharacterDesc->maxMana << std::endl;
+	std::cout << "Health: " << newCharacterDesc->health << std::endl;
 
 	return newCharacterDesc;
 

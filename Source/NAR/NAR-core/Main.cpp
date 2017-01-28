@@ -1,18 +1,21 @@
 #include <iostream>
 #include "Game/Game.h"
 #include <Game/Entity/Entity.h>
+#include <Game/Entity/Drawable/Character/Fighter/Fighter.h>
 
 int main() {
 
 	Game game(128, 72);
 	game.start();
-	
+
 	system("pause");
 	return 0;
 }
 
-//#include <string>
 
+//#include <string>
+//#include <stdarg.h>
+//
 //std::string compileFormatString(std::string str, ...) {
 //	
 //	std::string newString = "";

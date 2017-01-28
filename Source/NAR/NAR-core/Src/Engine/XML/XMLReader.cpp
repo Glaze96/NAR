@@ -1,12 +1,10 @@
 #include "XMLReader.h"
 
 
-CharacterDesc* XMLReader::getCharacterDesc() {
-	
+FighterDesc* XMLReader::getCharacterDesc() {
 
 
 	return nullptr;
-
 }
 
 
