@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Character Name="Raz">
+	<Name>Raz</Name>
+	<Health>150</Health>
+	<Energy>1337</Energy>
+	<Level>24</Level>
+	<Defence>20</Defence>
+	<Dexterity>30</Dexterity>
+	<Constitution>100</Constitution>
+</Character>
+<Character Name="Ice">
+	<Health>100</Health>
+	<Energy>999</Energy>
+	<Level>20</Level>
+	<Defence>10</Defence>
+	<Dexterity>2</Dexterity>
+	<Constitution>8</Constitution>
+</Character>
