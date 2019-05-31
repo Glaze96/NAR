@@ -8,10 +8,15 @@
 */
 #include "Fighter.h"
 
-class Player : Fighter {
+class Player : public Fighter {
 public:
+	Player();
+	Player(char apperance, const Vector2i& position);
+
 
 public: // Methods
+
+	void update(char input) override;
 
 private: // Fields
 };

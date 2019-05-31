@@ -13,16 +13,17 @@ class Camera;
 
 class Drawable : public Entity {
 protected:
+	Drawable();
 	Drawable(char appearance, const Vector2i& startPosition = Vector2i());
 
 public:
 	virtual ~Drawable();
 
 public: // Methods
-
-	virtual void draw(const Camera& camera);
+	void draw(const Camera& camera);
+	void move(const Vector2i& direction);
 	
-private: // Fields
+protected: // Fields
 	char m_appearance;
 	Vector2i m_position;
 };

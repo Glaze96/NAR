@@ -49,7 +49,7 @@ NOT FINISHED:
 
 Floor/ Wall/ Doors (needs a name) : Drawable
 	Probably same class and player will check if walkable
-	Will hold speed factor (mud = more energy)?
+	Will hold speed factor (mud = take more energy)?
 
 Interactables (doors) : Floor
 

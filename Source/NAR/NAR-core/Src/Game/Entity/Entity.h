@@ -13,7 +13,6 @@ protected:
 	virtual ~Entity();
 
 public:
-
 	// Methods
 	virtual void update(char input) { }
 

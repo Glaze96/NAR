@@ -6,11 +6,12 @@
 *
 *
 */
-#include "Game/Entity/Entity.h"
+#include "Game/Entity/Drawable/Drawable.h"
 
-class Character : public Entity {
+class Character : public Drawable {
 protected:
 	Character();
+	Character(char appearance, const Vector2i& startPosition = Vector2i());
 
 public: // Methods
 

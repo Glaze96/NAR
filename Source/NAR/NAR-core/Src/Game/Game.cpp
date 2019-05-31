@@ -3,40 +3,31 @@
 #include "Curses/curses.h"
 #include <Engine/Rendering/RenderManager.h>
 
-Game::Game(int gameWidth, int gameHeight) 
-	: Engine(gameWidth, gameHeight), m_camera(Vector2i(128, 72)) {}
+Game::Game(int gameWidth, int gameHeight)
+	: Engine(gameWidth, gameHeight), m_camera(Vector2i(128, 72))
+{
+}
 
-void Game::init() {
+void Game::init()
+{
 	// TODO: Initialize game systems
-
-
+	m_player = new Player('P', Vector2i(5, 5));
 }
 
-void Game::update(double deltaTime, int input) {
-
-	if (input == 'w') {
-		m_camera.move(Vector2f(0, -1));
-	}
-	else if (input == 'a') {
-		m_camera.move(Vector2f(-1, 0));
-	}
-	else if (input == 's') {
-		m_camera.move(Vector2f(0, 1));
-	}
-	else if (input == 'd') {
-		m_camera.move(Vector2f(1, 0));
-	}
-
-
+void Game::update(double deltaTime, int input)
+{
+	m_player->update(input);
 }
 
-void Game::draw() {
-
+void Game::draw()
+{
 	RenderManager::Println(m_camera, Vector2i(0, 0), "FPS: %i", getFPS());
+	m_player->draw(m_camera);
 }
 
-void Game::tick() {
-	
+void Game::tick()
+{
+
 
 
 }

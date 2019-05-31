@@ -11,7 +11,9 @@
 
 class Fighter : public Character {
 public:
-	Fighter(FighterDesc& desc);
+	Fighter();
+	Fighter(char appearance, const Vector2i& startPosition);
+	Fighter(char appearance, const Vector2i& startPosition, FighterDesc& desc);
 
 public: // Methods
 

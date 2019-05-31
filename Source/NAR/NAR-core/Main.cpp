@@ -5,7 +5,7 @@
 
 int main() {
 
-	Game game(128, 72);
+	Game game(64, 64);
 	game.start();
 
 	system("pause");

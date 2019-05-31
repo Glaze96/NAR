@@ -8,7 +8,7 @@
 */
 #include "Fighter.h"
 
-class Enemy :public Fighter {
+class Enemy : public Fighter {
 public:
 
 public: // Methods

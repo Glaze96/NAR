@@ -9,7 +9,7 @@
 
 #include "Engine/Engine.h"
 #include <Engine/Rendering/Camera.h>
-
+#include <Game\Entity\Drawable\Character\Fighter\Player.h>
 
 class Game : public Engine {
 public:
@@ -23,5 +23,5 @@ protected: // Methods
 
 private: // Fields
 	Camera m_camera;
-
+	Player* m_player;
 };
